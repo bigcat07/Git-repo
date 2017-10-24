@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#ipt {
+    width: 400px;
+    height: 30px;
+    border: 10px solid darkorange;
+    outline: none;
+    font-size: 20px;
+    background: url("img/big.png") no-repeat 5px;
+    padding-left: 40px;
+}
+.table {
+    width: 500px;
+    height: auto;
+}
+.table>div {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.hao {
+    width: 360px;
+    word-wrap:break-word;
+}
+.table>div>a>img {
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+}
